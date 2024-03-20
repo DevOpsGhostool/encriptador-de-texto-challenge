@@ -1,0 +1,356 @@
+body{
+    background: #F3F5FC;
+    width: 1440px;
+    height: 1024px;
+    top: 622px;
+    left: -2277px;
+    margin: 6px 6px;
+}
+
+body {
+    /* background-image: url("https://media.giphy.com/media/7FrOU9tPbgAZtxV5mb/giphy.gif"); */
+    background-image: url("https://media.giphy.com/media/7FrOU9tPbgAZtxV5mb/giphy.gif");
+    background-color: black;
+    background-blend-mode: blur;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+    padding: 1rem;
+    background-color: #e5e5e5;
+    height: 100vh;
+}   
+
+.container__main {
+    width: 100%;
+    height: 944px;
+    top: 619px;
+    left: 1032px;
+    gap: 16px;
+    opacity: 90%;
+}
+
+main {
+	overflow: hidden;
+	width: 100%; 
+}
+
+main .container__izquierdo, main .container__central, main .container__derecho{  /*hijos*/
+	float:inline-start
+}
+
+.container__izquierdo {
+    position: static;
+    width: 15% ;
+    height: 48px;
+    top: 40px;
+    left: 40px;
+    gap: 40px;
+}
+
+#logo {
+    width: 120px;
+    height: 48px;
+    margin: 40px 0 0 30px;
+}
+
+.container__central{
+    width: 51%;
+    height: 944px; 
+}
+
+.input{
+    width:  100%;
+    height: 600px;
+    margin-top: 20%;
+    background: #F3F5FC;
+}
+
+#textoInput:hover::placeholder {
+    color: #407053;
+}
+
+#textoInput::placeholder {
+    color: #0A3871;
+}
+
+#textoInput {
+    background: #F3F5FC;
+    border: 0 transparent;
+    width: 670px;
+    height: 550px;
+    top: 168px;
+    left: 240px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 32px;
+    font-weight: 400;
+    line-height: 48px;
+    letter-spacing: 0em;
+    text-align: justify;
+    color: #0A3871;    
+}
+
+.texto-advertencia{
+    color: white;
+    width: 300px;
+    height: 18px;
+    opacity: 0.8px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 18px;
+    letter-spacing: 0em;
+    margin-left: 2%;
+    padding: 0 0 10px 0;
+    text-align: left;
+}
+
+.container__botones{
+    width:  100%;
+    height: 74px;
+    left: 240px;
+    gap: 24px;
+    text-align: left;
+}
+
+#cifrar:hover{
+    background: #0c61e2;
+    width: 340px;
+    height: 68px;
+   margin-right: 6px;
+}
+    
+#cifrar:active{
+    background: #0A3871;
+    width: 341px;
+    height: 69px;
+}
+
+#cifrar{
+    width: 338px;
+    height: 67px;
+    padding: 24px;
+    margin-right: 8px;
+    border-radius: 24px;
+    background: #0A3871;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 19px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+#descifrar:hover{
+    background: #EFF1FA;
+    width: 340px;
+    height: 68px;
+    margin-left: 4px;
+}
+
+#descifrar:active{
+    background: #EFF1FA;
+    width: 338px;
+    height: 67px;
+}
+
+#descifrar{
+    width: 338px;
+    height: 67px;
+    padding: 24px;
+    margin-left: 8px;
+    border-radius: 24px;
+    border: 1px;
+    background: #D8DFE8;
+    border: 1px solid #0A3871;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 19px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #0A3871;
+}
+
+.container__derecho{
+    width: 400px;
+    height: 900px;
+    text-align: center;
+    display: flex;
+}
+
+.rectangulo{
+    width: 400px;
+    height: 94%;
+    margin: 20px;
+    border-radius: 32px;
+    background: #FFFFFF;
+    box-shadow: 0px 24px 32px -8px #00000014;
+}
+
+#muñeco{
+    width: 100%;
+    height: 200px;
+    padding-top: 200px;
+    justify-content: center;
+    display: flex;
+}
+
+.container__parrafo-Informativo{
+    width: 100%;
+    height: 122px;
+    margin-top: 40px;
+    overflow: auto;
+}
+
+#texto-cifrado{
+    height: 122px;
+}
+   
+#texto-sin-ingresar{
+    width: 300px;
+    height: 58px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 29px;
+    letter-spacing: 0em;
+    color: black;
+    margin: auto;
+    text-align: center;
+} 
+
+#ingrese-texto{
+    width: 70%;
+    height: 48px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0em;
+    color: black;
+    margin: auto;
+    text-align: justify;
+}
+
+#boton-copiar{
+    display: none;
+}
+
+#copiar{
+    width: 336px;
+    height: 67px;
+    padding: 24px;
+    border-radius: 24px;
+    border: 1px solid #0A3871;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 22px;
+    font-weight: 300;
+    line-height: 19px;
+    letter-spacing: 0em;
+    text-align: center;
+    background: #f7f5f5;
+}
+    
+#copiar:hover{
+    width: 340px;
+    height: 68px;
+}
+
+#copiar:active{
+    background: #FFFFFF;
+    width: 339px;
+    height: 67px;
+}
+
+.footer{
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 16px;
+    text-align: center;
+}
+
+@media screen and (max-width:768px){
+     body, .main, .container__main,  .container__izquierdo, .container__central, .input, .textarea, .container__botones, .boton__cifrar, .boton__descifrar, .container__derecho, .rectangulo {
+        width: 98%;
+        height: auto;
+    }
+
+    .container__izquierdo, #logo {
+        height: 4%;
+    }
+
+    .container__izquierdo{
+        top:2%;
+    }
+
+    #logo {
+        margin:0% 0%;
+        height: 100%;
+    }
+
+    .container__central, .input{
+        margin: 0 0;
+        text-align: center;
+        height: 40% ;
+    }
+
+    #textoInput{
+        width: 70%;
+        font-size: 25px;
+         height: 400px;
+         top: 168px;
+         left: 240px;  
+     }
+      
+    #cifrar {
+        width: 48%;
+        font-size: 16px;
+        margin: 0 0 0 2% ;
+        font-weight: bold;
+    }
+    
+    #cifrar:hover{
+        width: 48%;
+        height: 67px;
+        margin: 0 0 0 2% ;
+        background: #0A3871;
+    }
+
+    #cifrar:active{
+        background: #072B61;
+        width: 48%;
+        height: 67px;
+        margin: 0 0 0 2% ;
+    }
+
+    #descifrar {
+        width: 48%;
+        font-size: 16px;
+        margin: 0 2px 0 2px;
+        float: right;
+        font-weight: bold;
+    }
+
+    #descifrar:hover{
+        width: 48%;
+        height: 67px;
+        margin: 0 2px 0 2px ;
+        background: #D8DFE8;
+    }
+
+    #descifrar:active{
+        background: #EFF1FA;
+        width: 48%;
+        height: 67px;
+        margin: 0 2px 0 2px ;
+    }
+
+    .muñeco__imagen {
+        display: none;
+    }
+
+}
+
+
